@@ -1,0 +1,60 @@
+.container-home {
+    width: 100%;
+    height: 100vh;
+  
+    background: #000000;
+    --gap: 5em;
+    --line: 1px;
+    --color: rgba(255, 255, 255, 0.2);
+  
+    background-image: linear-gradient(
+        -90deg,
+        transparent calc(var(--gap) - var(--line)),
+        var(--color) calc(var(--gap) - var(--line) + 1px),
+        var(--color) var(--gap)
+      ),
+      linear-gradient(
+        0deg,
+        transparent calc(var(--gap) - var(--line)),
+        var(--color) calc(var(--gap) - var(--line) + 1px),
+        var(--color) var(--gap)
+      );
+    background-size: var(--gap) var(--gap);
+  }
+  .RowCol{
+    height: 100%;
+  }
+ 
+.row{
+    height: 100%;
+}
+.col{
+    height: 100%;
+    padding: 1.5rem;
+}
+
+  .Aphoto{
+    width: 100%;
+    height:100%;
+    /* margin: 2rem; */
+    background-image: url('assets/Aboutpic.jpg');
+    background-size: cover;
+  }
+
+  .para{
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  }
+
+  .head{
+    color: aliceblue;
+    font-size: 2rem;
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  }
