@@ -183,11 +183,11 @@ function Join() {
                                         <div class="input-group d-flex flex-column">
                                         <label class="label">GitHub ID</label>
                                         <input autocomplete="off"
-                                            name="gitID"
+                                            name="gitId"
                                             class="input"
                                             type="text"
                                             onChange={handleChange}
-                                            value={userData.gitID}
+                                            value={userData.gitId}
                                             required
                                             placeholder="GitHub ID" />
                                         <div></div></div>
