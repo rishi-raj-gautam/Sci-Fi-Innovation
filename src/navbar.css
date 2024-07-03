@@ -39,6 +39,7 @@ a{
     position: relative;
     display: inline-block;
     padding: 4px 24px;
+    width:116px;
     border: none;
     font-size: 16px;
     background-color: inherit;
