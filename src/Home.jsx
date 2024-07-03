@@ -1,3 +1,4 @@
+import Join from './Join';
 import './home.css'
 function Home() {
     return <>
@@ -6,7 +7,7 @@ function Home() {
             <div className='logo-h'></div>
                 <div className='head'><h1>Future Fun</h1></div>
                 <div className="para"><h2>Join us today and embark on an exciting journey to explore the future through creativity, innovation, and science fiction!</h2></div>
-                <a href='https://forms.gle/cDS1z8HPgRZuvbSg9' target='_blank'><button className="btn mt-2" type="button">
+                <button className="btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <strong>Join Now</strong>
                     <div id="container-stars">
                         <div id="stars"></div>
@@ -16,7 +17,9 @@ function Home() {
                         <div className="circle"></div>
                         <div className="circle"></div>
                     </div>
-                </button> </a>
+                </button>
+
+                <Join/>
             </div>
         </div>
     </>

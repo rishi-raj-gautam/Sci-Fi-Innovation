@@ -1,4 +1,5 @@
 
+import Join from './Join';
 import './navbar.css'
 function Navbar() {
     return <>
@@ -18,11 +19,10 @@ function Navbar() {
                         <a className="nav-link active" aria-current="page" href="#events">Events</a>
                         <a className="nav-link active" aria-current="page" href="#team">Our Team</a>
 
-                       <a href='https://forms.gle/cDS1z8HPgRZuvbSg9' target='_blank'><button className="animated-button">
+                       <button className="animated-button" type='button' data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                             <span>Join Now</span>
                             <span></span>
-                        </button></a>
-
+                        </button>
                     </div>
                 </div>
             </div>
