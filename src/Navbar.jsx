@@ -19,7 +19,7 @@ function Navbar() {
                         <a className="nav-link active" aria-current="page" href="#events">Events</a>
                         <a className="nav-link active" aria-current="page" href="#team">Our Team</a>
 
-                       <button className="animated-button" type='button' data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                       <button className="animated-button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                             <span>Join Now</span>
                             <span></span>
                         </button>
