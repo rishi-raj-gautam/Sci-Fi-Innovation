@@ -112,7 +112,7 @@ function Team() {
                         <div className="card-team d-flex justify-content-center align-items-center" key={member.id}>
                             <div className="card-photo" style={{ backgroundImage: `url(${member.photo})` }}></div>
                             <div className="card-title">
-                                <span className='memberName'>{member.name}</span><br />
+                                <span className='memberName para2'>{member.name}</span><br />
                                 <span className='para'>{member.role}</span>
                             </div>
                             <div className="card-socials">
@@ -136,7 +136,7 @@ function Team() {
                         <div className="card-team d-flex justify-content-center align-items-center" key={member.id}>
                             <div className="card-photo" style={{ backgroundImage: `url(${member.photo})` }}></div>
                             <div className="card-title">
-                                <span className='memberName'>{member.name}</span><br />
+                                <span className='memberName para2'>{member.name}</span><br />
                                 <span className='para'>{member.role}</span>
                             </div>
                             <div className="card-socials">

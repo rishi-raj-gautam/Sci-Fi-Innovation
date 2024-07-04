@@ -1,23 +1,19 @@
 .container-team {
   width: 100%;
-  height:140vh;
+  height: 140vh;
   position: relative;
   background: #000000;
   --gap: 5em;
   --line: 1px;
   --color: rgba(255, 255, 255, 0.2);
-  background-image: linear-gradient(
-      -90deg,
+  background-image: linear-gradient(-90deg,
       transparent calc(var(--gap) - var(--line)),
       var(--color) calc(var(--gap) - var(--line) + 1px),
-      var(--color) var(--gap)
-    ),
-    linear-gradient(
-      0deg,
+      var(--color) var(--gap)),
+    linear-gradient(0deg,
       transparent calc(var(--gap) - var(--line)),
       var(--color) calc(var(--gap) - var(--line) + 1px),
-      var(--color) var(--gap)
-    );
+      var(--color) var(--gap));
   background-size: var(--gap) var(--gap);
 }
 
@@ -73,8 +69,10 @@
 
 .card-socials {
   display: flex;
-  height: 35px; /* Set an initial height */
-  opacity: 0; /* Start with opacity 0 */
+  height: 35px;
+  /* Set an initial height */
+  opacity: 0;
+  /* Start with opacity 0 */
   margin-top: 20px;
   gap: 20px;
   transition: opacity 0.5s, height 0.5s;
@@ -107,7 +105,8 @@
 @media (max-width: 768px) {
   .card-team {
     width: 90%;
-    height: auto; /* Ensures card height adjusts based on content */
+    height: auto;
+    /* Ensures card height adjusts based on content */
   }
 
   .card-photo {
@@ -118,4 +117,12 @@
   .card-title {
     font-size: 1em;
   }
+}
+
+.para2 {
+  /* font-size: 2rem; */
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
