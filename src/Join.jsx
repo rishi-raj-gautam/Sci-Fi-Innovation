@@ -42,11 +42,11 @@ function Join() {
     }
     return <>
 
-        <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div className="modal-dialog modal-dialog-scrollable">
                 <div className="modal-content custom">
                     <div className="modal-header" style={{borderColor:'#00000000'}}>
-                        <h1 className="modal-title fs-5" id="staticBackdropLabel">Sci-Fi Innovation Club Memebership Form</h1>
+                        <h1 className="modal-title fs-5 head" id="staticBackdropLabel">Sci-Fi Innovation Club Memebership Form</h1>
                         <button type="button" className="btn-close custom" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div> 
                     <div className="modal-body">
@@ -54,11 +54,11 @@ function Join() {
                             <div>
                                 <form onSubmit={handleSubmit}>
 
-                                    <div class="input-group d-flex flex-column">
-                                        <label class="label">Name</label>
-                                        <input autocomplete="off"
+                                    <div className="input-group d-flex flex-column">
+                                        <label className="label">Name</label>
+                                        <input autoComplete="off"
                                             name="name"
-                                            class="input"
+                                            className="input"
                                             type="text"
                                             onChange={handleChange}
                                             value={userData.name}
@@ -69,11 +69,11 @@ function Join() {
 
 
 
-                                    <div class="input-group d-flex flex-column">
-                                        <label class="label">UID</label>
-                                        <input autocomplete="off"
+                                    <div className="input-group d-flex flex-column">
+                                        <label className="label">UID</label>
+                                        <input autoComplete="off"
                                             name="uid"
-                                            class="input"
+                                            className="input"
                                             type="text"
                                             onChange={handleChange}
                                             value={userData.uid}
@@ -81,11 +81,11 @@ function Join() {
                                             placeholder="UID" />
                                         <div></div></div>
 
-                                    <div class="input-group d-flex flex-column">
-                                        <label class="label">Contact Number</label>
-                                        <input autocomplete="off"
+                                    <div className="input-group d-flex flex-column">
+                                        <label className="label">Contact Number</label>
+                                        <input autoComplete="off"
                                             name="contactNumber"
-                                            class="input"
+                                            className="input"
                                             type="number"
                                             onChange={handleChange}
                                             value={userData.contactNumber}
@@ -93,11 +93,11 @@ function Join() {
                                             placeholder="Contact Number" />
                                         <div></div></div>
 
-                                    <div class="input-group d-flex flex-column">
-                                        <label class="label">Personal Email</label>
-                                        <input autocomplete="off"
+                                    <div className="input-group d-flex flex-column">
+                                        <label className="label">Personal Email</label>
+                                        <input autoComplete="off"
                                             name="email"
-                                            class="input"
+                                            className="input"
                                             type="email"
                                             onChange={handleChange}
                                             value={userData.email}
@@ -105,11 +105,11 @@ function Join() {
                                             placeholder="Personal Email Id" />
                                         <div></div></div>
 
-                                    <div class="input-group d-flex flex-column">
-                                        <label class="label">Department-Branch</label>
-                                        <input autocomplete="off"
+                                    <div className="input-group d-flex flex-column">
+                                        <label className="label">Department-Branch</label>
+                                        <input autoComplete="off"
                                             name="dept"
-                                            class="input"
+                                            className="input"
                                             type="text"
                                             onChange={handleChange}
                                             value={userData.dept}
@@ -117,11 +117,11 @@ function Join() {
                                             placeholder="Department-Branch" />
                                         <div></div></div>
 
-                                    <div class="input-group d-flex flex-column">
-                                        <label class="label">Domain</label>
+                                    <div className="input-group d-flex flex-column">
+                                        <label className="label">Domain</label>
                                         <select
                                             name="domain"
-                                            class="input"
+                                            className="input"
                                             
                                             onChange={handleChange}
                                             value={userData.domain}
@@ -137,11 +137,11 @@ function Join() {
                                         </select>
                                         <div></div></div>
 
-                                        <div class="input-group d-flex flex-column">
-                                        <label class="label">Year</label>
+                                        <div className="input-group d-flex flex-column">
+                                        <label className="label">Year</label>
                                         <select
                                             name="year"
-                                            class="input"
+                                            className="input"
                                             
                                             onChange={handleChange}
                                             value={userData.year}
@@ -156,11 +156,11 @@ function Join() {
                                         </select>
                                         <div></div></div>
 
-                                        <div class="input-group d-flex flex-column">
-                                        <label class="label">Section</label>
-                                        <input autocomplete="off"
+                                        <div className="input-group d-flex flex-column">
+                                        <label className="label">Section</label>
+                                        <input autoComplete="off"
                                             name="sec"
-                                            class="input"
+                                            className="input"
                                             type="text"
                                             onChange={handleChange}
                                             value={userData.sec}
@@ -168,11 +168,11 @@ function Join() {
                                             placeholder="Section" />
                                         <div></div></div>
 
-                                        <div class="input-group d-flex flex-column">
-                                        <label class="label">LinkedIn URL</label>
-                                        <input autocomplete="off"
+                                        <div className="input-group d-flex flex-column">
+                                        <label className="label">LinkedIn URL</label>
+                                        <input autoComplete="off"
                                             name="lnkdId"
-                                            class="input"
+                                            className="input"
                                             type="text"
                                             onChange={handleChange}
                                             value={userData.lnkdId}
@@ -180,11 +180,11 @@ function Join() {
                                             placeholder="LinkedIn URL" />
                                         <div></div></div>
 
-                                        <div class="input-group d-flex flex-column">
-                                        <label class="label">GitHub ID</label>
-                                        <input autocomplete="off"
+                                        <div className="input-group d-flex flex-column">
+                                        <label className="label">GitHub ID</label>
+                                        <input autoComplete="off"
                                             name="gitId"
-                                            class="input"
+                                            className="input"
                                             type="text"
                                             onChange={handleChange}
                                             value={userData.gitId}
