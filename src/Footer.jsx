@@ -23,7 +23,7 @@ function Footer() {
                     </div>
 
                     <div className="row-f">
-                        Sci-Fi Innovation Club Copyright © 2024 || All rights reserved || Designed By: Rishi
+                        Sci-Fi Innovation Club Copyright © 2024 || All rights reserved || Designed By: Rishi Raj Gautam
                     </div>
                 </div>
             </footer>
