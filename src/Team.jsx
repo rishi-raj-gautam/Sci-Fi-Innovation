@@ -19,6 +19,7 @@ import img13 from './assets/profile/Harshit.jpg'
 import img14 from './assets/profile/Ekanshi.jpg'
 import img15 from './assets/profile/Rohit.jpg'
 import img16 from './assets/profile/Ashini.jpeg'
+import img17 from './assets/profile/Priyanshu.jpg'
 
 function Team() {
     const [teamMembers, setTeamMembers] = useState([]);
@@ -37,7 +38,7 @@ function Team() {
             ];
 
             const data2 = [
-                { id: 1, name: "Priyanshu Tak", role: "Technical Department", photo:'' },
+                { id: 1, name: "Priyanshu Tak", role: "Technical Department", photo:img17 },
                 { id: 2, name: "Rohit Kumar Giri", role: "Technical Department", photo:img15},
                 { id: 3, name: "Ayush Kant", role: "Technical Department", photo:img10},
                 { id: 4, name: "Ashini L J", role: "Designing", photo:img16},
