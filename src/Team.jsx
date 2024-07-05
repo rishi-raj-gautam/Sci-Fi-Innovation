@@ -22,6 +22,7 @@ import img16 from './assets/profile/Ashini.jpeg'
 import img17 from './assets/profile/Priyanshu.jpg'
 import img18 from './assets/profile/Atish.jpg'
 import img19 from './assets/profile/Kashvi.jpg'
+import img20 from './assets/profile/Rahul.jpg'
 
 function Team() {
     const [teamMembers, setTeamMembers] = useState([]);
@@ -46,7 +47,7 @@ function Team() {
                 { id: 4, name: "Ashini L J", role: "Designing", photo:img16},
                 { id: 5, name: "M Dhruv Singha", role: "Finance Department", photo:img7},
                 { id: 6, name: "Harsh Raj", role: "Finance Department", photo:img6},
-                { id: 7, name: "Rahul Prakash", role: "Marketing & PR", photo:''},
+                { id: 7, name: "Rahul Prakash", role: "Marketing & PR", photo:img20},
                 { id: 8, name: "Deepti Arora", role: "Marketing & PR", photo:img12},
                 { id: 9, name: "Atish Kumar Shaw", role: "Media Team", photo:img18},
                 { id: 10, name: "Sarthak Kumar", role: "Marketing & PR", photo:img9},
