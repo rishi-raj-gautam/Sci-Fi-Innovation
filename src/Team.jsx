@@ -20,6 +20,8 @@ import img14 from './assets/profile/Ekanshi.jpg'
 import img15 from './assets/profile/Rohit.jpg'
 import img16 from './assets/profile/Ashini.jpeg'
 import img17 from './assets/profile/Priyanshu.jpg'
+import img18 from './assets/profile/Atish.jpg'
+import img19 from './assets/profile/Kashvi.jpg'
 
 function Team() {
     const [teamMembers, setTeamMembers] = useState([]);
@@ -46,12 +48,12 @@ function Team() {
                 { id: 6, name: "Harsh Raj", role: "Finance Department", photo:img6},
                 { id: 7, name: "Rahul Prakash", role: "Marketing & PR", photo:''},
                 { id: 8, name: "Deepti Arora", role: "Marketing & PR", photo:img12},
-                { id: 9, name: "Atish Kumar Shaw", role: "Media Team", photo:''},
+                { id: 9, name: "Atish Kumar Shaw", role: "Media Team", photo:img18},
                 { id: 10, name: "Sarthak Kumar", role: "Marketing & PR", photo:img9},
-                { id: 11, name: "Ekanshi", role: "Event Management Team", photo:img14},
-                { id: 12, name: "Utkarsh Prakhar", role: "Event Management Team", photo:img5},
-                { id: 13, name: "Kashvi Tandon", role: "Event Management Team", photo:''},
-                { id: 14, name: "Kanish Rohilla", role: "Event Management Team", photo:''},
+                { id: 11, name: "Ekanshi", role: "Event Management", photo:img14},
+                { id: 12, name: "Utkarsh Prakhar", role: "Event Management", photo:img5},
+                { id: 13, name: "Kashvi Tandon", role: "Event Management", photo:img19},
+                { id: 14, name: "Kanish Rohilla", role: "Event Management", photo:''},
                 { id: 15, name: "Aashwi Ranjan", role: "Media Team", photo:img8},
                 { id: 16, name: "Harshit", role: "Finance Department", photo:img13},
                 { id: 17, name: "Kanishka", role: "Finance Department", photo:img11},
