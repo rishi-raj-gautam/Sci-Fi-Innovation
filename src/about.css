@@ -1,60 +1,87 @@
 .container-home {
-    width: 100%;
-    height: 100vh;
-  
-    background: #000000;
-    --gap: 5em;
-    --line: 1px;
-    --color: rgba(255, 255, 255, 0.2);
-  
-    background-image: linear-gradient(
-        -90deg,
-        transparent calc(var(--gap) - var(--line)),
-        var(--color) calc(var(--gap) - var(--line) + 1px),
-        var(--color) var(--gap)
-      ),
-      linear-gradient(
-        0deg,
-        transparent calc(var(--gap) - var(--line)),
-        var(--color) calc(var(--gap) - var(--line) + 1px),
-        var(--color) var(--gap)
-      );
-    background-size: var(--gap) var(--gap);
-  }
-  .RowCol{
-    height: 100%;
-  }
- 
-.row{
-    height: 100%;
-}
-.col{
-    height: 100%;
-    padding: 1.5rem;
+  width: 100%;
+  height: 100vh;
+
+  background: #000000;
+  --gap: 5em;
+  --line: 1px;
+  --color: rgba(255, 255, 255, 0.2);
+
+  background-image: linear-gradient(-90deg,
+      transparent calc(var(--gap) - var(--line)),
+      var(--color) calc(var(--gap) - var(--line) + 1px),
+      var(--color) var(--gap)),
+    linear-gradient(0deg,
+      transparent calc(var(--gap) - var(--line)),
+      var(--color) calc(var(--gap) - var(--line) + 1px),
+      var(--color) var(--gap));
+  background-size: var(--gap) var(--gap);
 }
 
-  .Aphoto{
-    width: 100%;
-    height:100%;
-    /* margin: 2rem; */
-    background-image: url('assets/Aboutpic.jpg');
-    background-size: cover;
-  }
+.RowCol {
+  height: 100%;
+}
 
-  .para{
-    color: aliceblue;
-    font-size: 1.5rem;
-    font-family: "Josefin Sans", sans-serif;
+.row {
+  height: 100%;
+}
+
+.col {
+  height: 100%;
+  padding: 1.5rem;
+}
+
+.Aphoto {
+  width: 100%;
+  height: 100%;
+  /* margin: 2rem; */
+  background-image: url('assets/Aboutpic.jpg');
+  background-size: cover;
+}
+
+.para {
+  color: aliceblue;
+  font-size: 1.5rem;
+  font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  }
+}
 
-  .head{
-    color: aliceblue;
-    font-size: 2rem;
-    font-family: "Josefin Sans", sans-serif;
+.head {
+  color: aliceblue;
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+}
+
+.row-f{
+  width:100%;
+  margin:1% 0%;
+  padding:0.6% 0%;
+  color:gray;
+  font-size:0.8em;
   }
+
+.row-f a {
+  text-decoration: none;
+  color: gray;
+  transition: 0.5s;
+}
+
+.row-f a:hover {
+  color: #fff;
+}
+
+.row-f a i {
+  font-size: 2.5em;
+  margin: 0% 2%;
+}
+
+@media (max-width:720px) {
+  .footer .row-f a i {
+    margin: 0% 3%;
+  }
+}

@@ -9,7 +9,7 @@ function Footer() {
                 <div className="footer">
                     <div className="row-f">
                         <a href="#"><i className="fa fa-facebook"></i></a>
-                        <a href="#"><i className="fa fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/sci_fi.cu/?utm_source=qr&igsh=NXFlZjliNjQyYzJj" target='_blank'><i className="fa fa-instagram"></i></a>
                         <a href="#"><i className="fa fa-linkedin"></i></a>
                     </div>
 
