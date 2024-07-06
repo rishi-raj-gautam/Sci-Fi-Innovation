@@ -6,17 +6,25 @@ import About from './About'
 import Events from './Events'
 import Team from './Team'
 import Footer from './Footer'
+import { Routes,Route } from 'react-router-dom'
+import MoreTeam from './MoreTeam'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Navbar/>
+    <Routes>
+      <Route path='/' element={<><Navbar/>
       <Home/>
       <About/>
       <Events/>
       <Team/>
       <Footer/>
+      </>
+      } />
+      <Route path='/moreteam' element={<MoreTeam/>}/>
+    </Routes> 
+      
     </>
   )
 }

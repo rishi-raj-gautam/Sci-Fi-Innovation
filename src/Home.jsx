@@ -18,7 +18,6 @@ function Home() {
                         <div className="circle"></div>
                     </div>
                 </button>
-
                 <Join/>
             </div>
         </div>
