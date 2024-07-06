@@ -2,8 +2,7 @@
     "rewrites": [
       {
         "source": "/moreteam",
-        "destination": "/index.html",
-        "permanent": true
+        "destination": "/index.html"
       }
     ]
   }

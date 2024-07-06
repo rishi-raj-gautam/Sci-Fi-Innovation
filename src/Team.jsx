@@ -52,7 +52,7 @@ function Team() {
 
     return (
         <div className="container-team d-flex flex-column justify-content-center align-items-center" id="team">
-            <div className='head mb-5'><h1>OurTeam</h1></div>
+            <div className='head mb-5'><h1>Our Team</h1></div>
             <div className='slider'>
                 <h4 className='para mb-3'>Executive Board</h4>
                 <Slider {...settings}>
