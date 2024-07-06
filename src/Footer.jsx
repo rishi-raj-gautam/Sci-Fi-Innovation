@@ -8,7 +8,7 @@ function Footer() {
             <footer>
                 <div className="footer">
                     <div className="row-f">
-                        <a href="#"><i className="fa fa-youtube"></i></a>
+                        <a href="#"><i className="fa fa-youtube" target='_blank'></i></a>
                         <a href="https://www.instagram.com/scifiinnovationclub/" target='_blank'><i className="fa fa-instagram"></i></a>
                         <a href="https://www.linkedin.com/in/sci-fi-innovation-club-582062318/" target='_blank'><i className="fa fa-linkedin"></i></a>
                     </div>
