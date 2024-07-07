@@ -13,7 +13,6 @@ function Join() {
         year: '',
         gitId: '',
         lnkdId: '',
-        sec: ''
     };
 
     const [userData, setUserData] = useState(initialState);
@@ -146,17 +145,7 @@ function Join() {
                                             </select>
                                         </div>
 
-                                        <div className="input-group d-flex flex-column">
-                                            <label className="label">Section</label>
-                                            <input autoComplete="off"
-                                                name="sec"
-                                                className="input"
-                                                type="text"
-                                                onChange={handleChange}
-                                                value={userData.sec}
-                                                required
-                                                placeholder="Section" />
-                                        </div>
+                                        
 
                                         <div className="input-group d-flex flex-column">
                                             <label className="label">LinkedIn URL</label>
@@ -166,7 +155,6 @@ function Join() {
                                                 type="text"
                                                 onChange={handleChange}
                                                 value={userData.lnkdId}
-                                                required
                                                 placeholder="LinkedIn URL" />
                                         </div>
 
@@ -178,7 +166,6 @@ function Join() {
                                                 type="text"
                                                 onChange={handleChange}
                                                 value={userData.gitId}
-                                                required
                                                 placeholder="GitHub ID" />
                                         </div>
 

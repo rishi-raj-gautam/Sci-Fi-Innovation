@@ -18,11 +18,11 @@ function Team() {
         // Mock API call
         const fetchTeamMembers = async () => {
             const data = [
-                { id: 1, name: "Ashish Kumar", role: "President", photo: img, github: "https://github.com/ashish", linkedin: "https://linkedin.com/in/ashish", instagram: "https://instagram.com/ashish" },
+                { id: 1, name: "Ashish Kumar", role: "President", photo: img, github: "https://github.com/ShaAsh-75321", linkedin: "https://www.linkedin.com/in/ashish-kumar-6b1500249/", instagram: "https://www.instagram.com/ashkumar8907/" },
                 { id: 2, name: "Krish", role: "Vice President", photo: img2, github: "https://github.com/Krish-Gauttam", linkedin: "https://www.linkedin.com/in/krish-177a5a276", instagram: "https://www.instagram.com/krish_gauttam?igsh=MXA4NHg0amowOXN6Ng==" },
                 { id: 3, name: "Rishi Raj Gautam", role: "Deputy Vice President", photo: img3, github: "https://github.com/rishi-raj-gautam", linkedin: "https://www.linkedin.com/in/rishi-raj-gautam-232221276/", instagram: "https://www.instagram.com/___rishi__raj___/" },
                 { id: 4, name: "Dr. Sartajvir Singh Dhillon", role: "Faculty Advisor", photo: img4, github: "", linkedin: "https://linkedin.com/in/sartajvir", instagram: "" },
-                { id: 5, name: "Er. Apoorva", role: "Faculty Co-Advisor", photo: img5, github: "", linkedin: "https://linkedin.com/in/apoorva", instagram: "" },
+                { id: 5, name: "Er. Apoorva", role: "Faculty Co-Advisor", photo: img5, github: "", linkedin: "", instagram: "" },
             ];
 
             setTeamMembers(data);
