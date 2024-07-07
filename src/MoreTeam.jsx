@@ -63,6 +63,7 @@ function MoreTeam() {
                 { id: 25, name: "Rashad", role: "Designing", photo: img28, linkedin: "https://www.linkedin.com/in/rashadonin", instagram: "https://www.instagram.com/rashad_.fr" },
                 { id: 26, name: "Aditya M R", role: "Anchoring", photo: img30, github: "https://github.com/Ainz07", linkedin: "https://www.linkedin.com/in/adith-m-r-52706b279/"},
                 { id: 27, name: "Palak Saini", role: "Desiging", photo: img31, github: "https://github.com/PalakSaini27", linkedin: "http://www.linkedin.com/in/palak-saini-32aa6a24b", instagram: "https://www.instagram.com/plku_2004/?next=%2F" },
+                { id: 28, name: "Nidhi", role: "Anchoring", photo: ""},
                 
                  
             ];
