@@ -2,7 +2,8 @@ import './about.css'
 function About() {
     return (
         <>
-            <div className="container-home" id="about">
+            <div className="container-home d-flex flex-column justify-content-center align-items-center" id="about">
+            <div  className='head m-4'><h1>About</h1></div>
                 <div className="container text-center RowCol">
                     <div className="row">
                         <div className="col-12 col-md-6">
@@ -25,6 +26,9 @@ function About() {
                         </div>
                     </div>
                 </div>
+                <div className='youTube container-fluid d-flex justify-content-center align-items-center m-5'>
+                <iframe width="712" height="400" src="https://www.youtube.com/embed/wXIax8Zqcm8?si=-I4uycKvEdoajrhy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                
             </div>
         </>
     )

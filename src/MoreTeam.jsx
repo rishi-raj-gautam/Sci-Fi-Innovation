@@ -28,6 +28,7 @@ import img30 from './assets/profile/Adith.jpg';
 import img31 from './assets/profile/palak.jpeg';
 import img32 from './assets/profile/Nidhi.jpg';
 import img33 from './assets/profile/Manleen.jpg';
+import img34 from './assets/profile/Reshant.jpg';
 
 import './moreTeam.css';
 
@@ -44,10 +45,10 @@ function MoreTeam() {
                 { id: 4, name: "Ashini L J", role: "Designing", photo: img16, github: "https://github.com/Ashinilj", linkedin: "https://www.linkedin.com/in/ashini-l-j-78009924b/", instagram: "https://www.instagram.com/ashinilj/?igsh=cXBpd3kxeW1rcXU5&utm_source=qr" },
                 { id: 5, name: "M Dhruv Singha", role: "Finance Department", photo: img7, github: "https://github.com/dhruv619singha", linkedin: "https://www.linkedin.com/in/m-dhruv-singha-a6a847250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", instagram: "https://www.instagram.com/dhruvsingha619/" },
                 { id: 6, name: "Harsh Raj", role: "Finance Department", photo: img6, github: "https://github.com/harshraj423", linkedin: "https://www.linkedin.com/in/harsh-raj-53a757249/", instagram: "https://www.instagram.com/harsh_raj12390?igsh=MTdjaTR1ZWpsOXZuZw==" },
-                { id: 7, name: "Rahul Prakash", role: "Marketing & PR", photo: img20, linkedin: "https://www.linkedin.com/in/rahul-prakash-774b0a289", instagram: "https://www.instagram.com/rahul_rians7?igsh=MTdhczQyNTg1c25wNA==" },
+                { id: 7, name: "Rahul Prakash", role: "Marketing & PR", photo: img20,github: "https://github.com/Rahul-curious", linkedin: "https://www.linkedin.com/in/rahul-prakash-774b0a289", instagram: "https://www.instagram.com/rahul_rians7?igsh=MTdhczQyNTg1c25wNA==" },
                 { id: 8, name: "Deepti Arora", role: "Marketing & PR", photo: img12, github: "https://github.com/Deepi-AV", linkedin: "https://www.linkedin.com/in/deepti-arora-60583324a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", instagram: "https://www.instagram.com/_deep.iii_/" },
                 { id: 9, name: "Atish Kumar Shaw", role: "Media Team", photo: img18, github: "https://github.com/Atish-Shaw", linkedin: "http://www.linkedin.com/in/atish-shaw-241976289", instagram: "https://www.instagram.com/_atish.vision?igsh=eXNkYmtmYTY3aWVzhttps://www.instagram.com/_atish.vision?igsh=eXNkYmtmYTY3aWVz" },
-                { id: 10, name: "Sarthak Kumar", role: "Marketing & PR", photo: img9, github: "https://github.com/sarthak", linkedin: "https://linkedin.com/in/sarthak", instagram: "https://instagram.com/sarthak" },
+                { id: 10, name: "Sarthak Kumar", role: "Marketing & PR", photo: img9, github: "https://github.com/sarthakkumar12027", linkedin: "https://www.linkedin.com/in/sarthak-kumar-86a7412b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", instagram: "https://www.instagram.com/_sarthak.sarkar?igsh=MWdleThrODZyZjZhMA==" },
                 { id: 11, name: "Ekanshi", role: "Event Management", photo: img14, github: "https://github.com/Ekanshi12", linkedin: "https://www.linkedin.com/in/ekanshi-981247268/", instagram: "https://www.instagram.com/shi.yaa_12/" },
                 { id: 12, name: "Utkarsh Prakhar", role: "Event Management", photo: img5, github: "https://github.com/utkarshprakhar", linkedin: "https://www.linkedin.com/in/utkarsh-prakhar-8a05a3251/", instagram: "https://www.instagram.com/_mr.savage__/" },
                 { id: 13, name: "Kashvi Tandon", role: "Event Management", photo: img19, github: "https://github.com/kashvi", linkedin: "https://linkedin.com/in/kashvi", instagram: "https://www.instagram.com/heyy._.kashvi?igsh=bW5haHUzZDBwOGZk" },
@@ -66,7 +67,8 @@ function MoreTeam() {
                 { id: 26, name: "Adith M R", role: "Anchoring", photo: img30, github: "https://github.com/Ainz07", linkedin: "https://www.linkedin.com/in/adith-m-r-52706b279/"},
                 { id: 27, name: "Palak Saini", role: "Designing", photo: img31, github: "https://github.com/PalakSaini27", linkedin: "http://www.linkedin.com/in/palak-saini-32aa6a24b", instagram: "https://www.instagram.com/plku_2004/?next=%2F" },
                 { id: 28, name: "Nidhi", role: "Anchoring", photo: img32, linkedin: "https://www.linkedin.com/in/nidhi-sharma-98983b249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", instagram: "https://www.instagram.com/sharmanidhi523?igsh=ZTh2NTdjaGV6Y3Fx"},
-                { id: 28, name: "Manleen Jagdeo", role: "Designing", photo: img33, github: "https://github.com/ManleenJagdeo", linkedin: "https://www.linkedin.com/in/manleen-jagdeo-5a504324b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", instagram: ""},
+                { id: 29, name: "Manleen Jagdeo", role: "Designing", photo: img33, github: "https://github.com/ManleenJagdeo", linkedin: "https://www.linkedin.com/in/manleen-jagdeo-5a504324b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"},
+                { id: 30, name: "Reshant Chaudhary", role: "Marketing & PR", photo: img34, github: "https://www.instagram.com/rahul_rians7?igsh=MTdhczQyNTg1c25wNA==", linkedin: "https://www.linkedin.com/in/rahul-prakash-774b0a289", instagram: "https://www.instagram.com/rahul_rians7?igsh=MTdhczQyNTg1c25wNA=="},
                 
                  
             ];
