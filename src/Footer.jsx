@@ -3,6 +3,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import './footer.css'
 function Footer() {
+    const currentYear = new Date().getFullYear();
     return (
         <>
             <footer>
@@ -23,7 +24,7 @@ function Footer() {
                     </div>
 
                     <div className="row-f">
-                        Sci-Fi Innovation Club Copyright © 2024 || All rights reserved || Designed By: Rishi Raj Gautam
+                        Sci-Fi Innovation Club Copyright © {currentYear} || All rights reserved || Designed By: Rishi Raj Gautam
                     </div>
                 </div>
             </footer>
