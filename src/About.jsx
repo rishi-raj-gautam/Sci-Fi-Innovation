@@ -27,7 +27,7 @@ function About() {
                     </div>
                 </div>
                 <div className='youTube container-fluid d-flex justify-content-center align-items-center m-4'>
-                <iframe width="712" height="400" src="https://www.youtube.com/embed/wXIax8Zqcm8?si=-I4uycKvEdoajrhy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                <iframe width="712" height="400" src="https://www.youtube.com/embed/wXIax8Zqcm8?si=-I4uycKvEdoajrhy" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe></div>
                 
             </div>
         </>

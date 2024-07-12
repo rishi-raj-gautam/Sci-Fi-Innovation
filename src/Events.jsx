@@ -1,12 +1,56 @@
 import './event.css';
 import React from 'react';
-
+import { useState, useEffect } from 'react';
 function Events() {
+
+
+
+    const calculateTimeLeft = () => {
+        const eventDate = new Date("Jul 13, 2024 13:00:00").getTime();
+        const now = new Date().getTime();
+        const distance = eventDate - now;
+    
+        let timeLeft = {};
+    
+        if (distance > 0) {
+          timeLeft = {
+            days: Math.floor(distance / (1000 * 60 * 60 * 24)),
+            hours: Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+            minutes: Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)),
+            seconds: Math.floor((distance % (1000 * 60)) / 1000)
+          };
+        } else {
+          timeLeft = {
+            days: 0,
+            hours: 0,
+            minutes: 0,
+            seconds: 0
+          };
+        }
+    
+        return timeLeft;
+      };
+    
+      const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+    
+      useEffect(() => {
+        const timer = setTimeout(() => {
+          setTimeLeft(calculateTimeLeft());
+        }, 1000);
+    
+        return () => clearTimeout(timer);
+      });
+
+      
+
+
+
+
     const events = [
-        { id: 1, heading: 'Ideathon (upcoming)', location: 'Chandigarh University' },
-        { id: 2, heading: 'Hackathon (upcoming)', location: 'Chandigarh University' },
-        { id: 3, heading: 'NYA', location: 'Chandigarh University' },
-        { id: 4, heading: 'NYA', location: 'Chandigarh University' },
+        { id: 1, heading: 'ThinkAThon', location: 'Chandigarh University' },
+        { id: 2, heading: 'N/A', location: 'Chandigarh University' },
+        { id: 3, heading: 'N/A', location: 'Chandigarh University' },
+        { id: 4, heading: 'N/A', location: 'Chandigarh University' },
     ];
 
     return (
@@ -18,7 +62,8 @@ function Events() {
                         <div key={event.id} className="col d-flex justify-content-center">
                             <div className="card">
                                 <p className="heading">{event.heading}</p>
-                                <p className="para">{event.location}</p>
+                                <p className="para location">{event.location}</p>
+                                {event.id==1?<button className="btn-form">{timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s</button>:""}
                             </div>
                         </div>
                     ))}

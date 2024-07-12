@@ -59,7 +59,8 @@ function Join() {
                             <button type="button" className="btn-close custom" data-bs-dismiss="modal" aria-label="Close" onClick={handleModalClose}></button>
                         </div>
                         <div className="modal-body">
-                            {isRegistered ? (
+                        <div className='para2'>The Membership Form will be live at the end of ThinkAThon Event</div>
+                            {/* {isRegistered ? (
                                 <div className="mt-3">
                                     <p>Thank you for registering! Join our WhatsApp group here:</p>
                                     <a href="https://chat.whatsapp.com/your-group-link" target="_blank" rel="noopener noreferrer">Join WhatsApp Group</a>
@@ -177,7 +178,7 @@ function Join() {
                                         </button>
                                     </form>
                                 </div>
-                            )}
+                            )} */}
                         </div>
                         <div className="modal-footer" style={{borderColor:'#00000000'}}>
                             <button type="button" className="animated-button" data-bs-dismiss="modal" onClick={handleModalClose}>Close</button>
