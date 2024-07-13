@@ -54,12 +54,12 @@ function Join() {
                     <div className="modal-content custom">
                         <div className="modal-header" style={{borderColor:'#00000000'}}>
                             <h1 className="modal-title fs-5 head" id="staticBackdropLabel">
-                                {isRegistered ? "Welcome to Sci-Fi Innovation Club!" : "Sci-Fi Innovation Club Membership Form"}
+                                {isRegistered ? "Welcome to Sci-Fi Innovation Club!" : "Sci-Fi Innovation Club Permanent Membership Form"}
                             </h1>
                             <button type="button" className="btn-close custom" data-bs-dismiss="modal" aria-label="Close" onClick={handleModalClose}></button>
                         </div>
                         <div className="modal-body">
-                        <div className='para2'>The Membership Form will be live at the end of Think-A-Thon Event</div>
+                        <div className='para2'>The Permanent Membership Form will be live on 17th & 18th July</div>
                             {/* {isRegistered ? (
                                 <div className="mt-3">
                                     <p>Thank you for registering! Join our WhatsApp group here:</p>
