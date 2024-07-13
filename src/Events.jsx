@@ -63,7 +63,7 @@ function Events() {
                             <div className={`card ${event.id === 1 ? 'special-card' : ''}`}>
                                 <p className="heading">{event.heading}</p>
                                 <p className="para location">{event.location}</p>
-                                {event.id==1?<button className="btn-form">{timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s</button>:""}
+                                {event.id==1?<a className="" href="https://forms.gle/s12amH93fMzbsYVu7"><button className="btn-form">Register Now</button></a>:""}
                             </div>
                         </div>
                     ))}
