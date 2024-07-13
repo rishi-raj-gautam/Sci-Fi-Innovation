@@ -6,7 +6,7 @@ function Events() {
 
 
     const calculateTimeLeft = () => {
-        const eventDate = new Date("Jul 13, 2024 13:00:00").getTime();
+        const eventDate = new Date("Jul 13, 2024 17:00:00").getTime();
         const now = new Date().getTime();
         const distance = eventDate - now;
     
