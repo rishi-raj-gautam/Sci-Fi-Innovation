@@ -29,6 +29,7 @@ import img31 from './assets/profile/palak.jpeg';
 import img32 from './assets/profile/Nidhi.jpg';
 import img33 from './assets/profile/Manleen.jpg';
 import img34 from './assets/profile/Reshant.jpg';
+import img35 from './assets/profile/Samridhi.jpg';
 
 import './moreTeam.css';
 
@@ -69,7 +70,7 @@ function MoreTeam() {
                 { id: 28, name: "Nidhi", role: "Anchoring", photo: img32, github:"https://github.com/22bcs16147", linkedin: "https://www.linkedin.com/in/nidhi-sharma-98983b249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", instagram: "https://www.instagram.com/sharmanidhi523?igsh=ZTh2NTdjaGV6Y3Fx"},
                 { id: 29, name: "Manleen Jagdeo", role: "Designing", photo: img33, github: "https://github.com/ManleenJagdeo", linkedin: "https://www.linkedin.com/in/manleen-jagdeo-5a504324b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"},
                 { id: 30, name: "Reshant Chaudhary", role: "Marketing & PR", photo: img34, github: "https://www.instagram.com/rahul_rians7?igsh=MTdhczQyNTg1c25wNA==", linkedin: "https://www.linkedin.com/in/rahul-prakash-774b0a289", instagram: "https://www.instagram.com/rahul_rians7?igsh=MTdhczQyNTg1c25wNA=="},
-                { id: 31, name: "Samridhi Sharma", role: "Anchoring", photo: '', github: "https://github.com/Samridhi17", linkedin: "https://www.linkedin.com/in/samridhi-sharma-25694a274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", instagram: "https://www.instagram.com/_smridhi.sharma_?igsh=MW03YWNxaHhnZ2p3MQ=="},
+                { id: 31, name: "Samridhi Sharma", role: "Anchoring", photo: img35, github: "https://github.com/Samridhi17", linkedin: "https://www.linkedin.com/in/samridhi-sharma-25694a274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", instagram: "https://www.instagram.com/_smridhi.sharma_?igsh=MW03YWNxaHhnZ2p3MQ=="},
                 
                  
             ];

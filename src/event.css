@@ -14,6 +14,8 @@
     width: 190px;
     height: 254px;
     background-color: #000;
+    /* background-image: url('assets\Saturn.png');
+    background-size: contain; */
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -23,6 +25,12 @@
     cursor: pointer;
     color: white;
   }
+
+  .special-card {
+    background-image: url('assets\Saturn.jpg');
+    background-size: contain;
+    /* opacity: 0.5; */
+}
   
   .card::before {
     content: '';

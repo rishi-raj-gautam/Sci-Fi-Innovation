@@ -59,7 +59,7 @@ function Join() {
                             <button type="button" className="btn-close custom" data-bs-dismiss="modal" aria-label="Close" onClick={handleModalClose}></button>
                         </div>
                         <div className="modal-body">
-                        <div className='para2'>The Membership Form will be live at the end of ThinkAThon Event</div>
+                        <div className='para2'>The Membership Form will be live at the end of Think-A-Thon Event</div>
                             {/* {isRegistered ? (
                                 <div className="mt-3">
                                     <p>Thank you for registering! Join our WhatsApp group here:</p>

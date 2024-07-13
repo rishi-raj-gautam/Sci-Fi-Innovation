@@ -47,7 +47,7 @@ function Events() {
 
 
     const events = [
-        { id: 1, heading: 'ThinkAThon', location: 'Chandigarh University' },
+        { id: 1, heading: 'THINK-A-THON', location: 'Chandigarh University' },
         { id: 2, heading: 'N/A', location: 'Chandigarh University' },
         { id: 3, heading: 'N/A', location: 'Chandigarh University' },
         { id: 4, heading: 'N/A', location: 'Chandigarh University' },
@@ -60,7 +60,7 @@ function Events() {
                 <div className="row mt-4">
                     {events.map((event) => (
                         <div key={event.id} className="col d-flex justify-content-center">
-                            <div className="card">
+                            <div className={`card ${event.id === 1 ? 'special-card' : ''}`}>
                                 <p className="heading">{event.heading}</p>
                                 <p className="para location">{event.location}</p>
                                 {event.id==1?<button className="btn-form">{timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s</button>:""}
