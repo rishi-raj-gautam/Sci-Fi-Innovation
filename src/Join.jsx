@@ -10,9 +10,10 @@ function Join() {
         email: '',
         uid: '',
         dept: '',
-        year: '',
-        gitId: '',
-        lnkdId: '',
+        prog: '',
+        sem: '',
+        regID: '',
+        memID: '',
     };
 
     const [userData, setUserData] = useState(initialState);
@@ -59,11 +60,10 @@ function Join() {
                             <button type="button" className="btn-close custom" data-bs-dismiss="modal" aria-label="Close" onClick={handleModalClose}></button>
                         </div>
                         <div className="modal-body">
-                        <div className='para2'>The Permanent Membership Form will be live on 17th & 18th July</div>
-                            {/* {isRegistered ? (
+                            {isRegistered ? (
                                 <div className="mt-3">
-                                    <p>Thank you for registering! Join our WhatsApp group here:</p>
-                                    <a href="https://chat.whatsapp.com/your-group-link" target="_blank" rel="noopener noreferrer">Join WhatsApp Group</a>
+                                    <p>Thank you for registering!</p>
+                                    {/* <a href="https://chat.whatsapp.com/your-group-link" target="_blank" rel="noopener noreferrer">Join WhatsApp Group</a> */}
                                 </div>
                             ) : (
                                 <div>
@@ -117,7 +117,7 @@ function Join() {
                                         </div>
 
                                         <div className="input-group d-flex flex-column">
-                                            <label className="label">Department-Branch</label>
+                                            <label className="label">Department</label>
                                             <input autoComplete="off"
                                                 name="dept"
                                                 className="input"
@@ -125,13 +125,25 @@ function Join() {
                                                 onChange={handleChange}
                                                 value={userData.dept}
                                                 required
-                                                placeholder="Department-Branch" />
+                                                placeholder="Department" />
                                         </div>
 
                                         <div className="input-group d-flex flex-column">
-                                            <label className="label">Year</label>
+                                            <label className="label">Course/Program</label>
+                                            <input autoComplete="off"
+                                                name="prog"
+                                                className="input"
+                                                type="text"
+                                                onChange={handleChange}
+                                                value={userData.prog}
+                                                required
+                                                placeholder="Course/Program" />
+                                        </div>
+
+                                        <div className="input-group d-flex flex-column">
+                                            <label className="label">Semester</label>
                                             <select
-                                                name="year"
+                                                name="sem"
                                                 className="input"
                                                 onChange={handleChange}
                                                 value={userData.year}
@@ -139,35 +151,34 @@ function Join() {
                                             >
                                                 <option value="" disabled hidden>Choose Year</option>
                                                 <option value="1">1</option>
-                                                <option value="2">2</option>
                                                 <option value="3">3</option>
-                                                <option value="4">4</option>
                                                 <option value="5">5</option>
+                                                <option value="7">7</option>
                                             </select>
                                         </div>
 
                                         
 
                                         <div className="input-group d-flex flex-column">
-                                            <label className="label">LinkedIn URL</label>
+                                            <label className="label">Entity Registration ID</label>
                                             <input autoComplete="off"
-                                                name="lnkdId"
+                                                name="regID"
                                                 className="input"
                                                 type="text"
                                                 onChange={handleChange}
-                                                value={userData.lnkdId}
-                                                placeholder="LinkedIn URL" />
+                                                value={userData.regID}
+                                                placeholder="Entity Registration ID" />
                                         </div>
 
                                         <div className="input-group d-flex flex-column">
-                                            <label className="label">GitHub ID</label>
+                                            <label className="label">Membership ID</label>
                                             <input autoComplete="off"
-                                                name="gitId"
+                                                name="memID"
                                                 className="input"
                                                 type="text"
                                                 onChange={handleChange}
-                                                value={userData.gitId}
-                                                placeholder="GitHub ID" />
+                                                value={userData.memID}
+                                                placeholder="Membership ID" />
                                         </div>
 
                                         <button
@@ -178,7 +189,7 @@ function Join() {
                                         </button>
                                     </form>
                                 </div>
-                            )} */}
+                            )}
                         </div>
                         <div className="modal-footer" style={{borderColor:'#00000000'}}>
                             <button type="button" className="animated-button" data-bs-dismiss="modal" onClick={handleModalClose}>Close</button>
