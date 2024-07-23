@@ -167,6 +167,7 @@ function Join() {
                                                 type="text"
                                                 onChange={handleChange}
                                                 value={userData.regID}
+                                                required
                                                 placeholder="Entity Registration ID" />
                                         </div>
 
@@ -178,6 +179,7 @@ function Join() {
                                                 type="text"
                                                 onChange={handleChange}
                                                 value={userData.memID}
+                                                required
                                                 placeholder="Membership ID" />
                                         </div>
 
