@@ -60,10 +60,11 @@ function Join() {
                             <button type="button" className="btn-close custom" data-bs-dismiss="modal" aria-label="Close" onClick={handleModalClose}></button>
                         </div>
                         <div className="modal-body">
-                            {isRegistered ? (
+                        <div className='head'>Form will reopen on 29th July at 3pm</div>
+                            {/* {isRegistered ? (
                                 <div className="mt-3">
                                     <p>Thank you for registering!</p>
-                                    {/* <a href="https://chat.whatsapp.com/your-group-link" target="_blank" rel="noopener noreferrer">Join WhatsApp Group</a> */}
+                                    
                                 </div>
                             ) : (
                                 <div>
@@ -149,7 +150,7 @@ function Join() {
                                                 value={userData.year}
                                                 required
                                             >
-                                                <option value="" disabled hidden>Choose Year</option>
+                                                <option value="" disabled hidden>Choose Semester</option>
                                                 <option value="1">1</option>
                                                 <option value="3">3</option>
                                                 <option value="5">5</option>
@@ -191,7 +192,7 @@ function Join() {
                                         </button>
                                     </form>
                                 </div>
-                            )}
+                            )} */}
                         </div>
                         <div className="modal-footer" style={{borderColor:'#00000000'}}>
                             <button type="button" className="animated-button" data-bs-dismiss="modal" onClick={handleModalClose}>Close</button>
