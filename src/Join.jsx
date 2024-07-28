@@ -60,7 +60,6 @@ function Join() {
                             <button type="button" className="btn-close custom" data-bs-dismiss="modal" aria-label="Close" onClick={handleModalClose}></button>
                         </div>
                         <div className="modal-body">
-                        <div className='head'>Form will reopen on 29th July at 3pm</div>
                             {isRegistered ? (
                                 <div className="mt-3">
                                     <p>Thank you for registering!</p>
