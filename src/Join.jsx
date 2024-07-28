@@ -146,7 +146,7 @@ function Join() {
                                                 name="sem"
                                                 className="input"
                                                 onChange={handleChange}
-                                                value={userData.year}
+                                                value={userData.sem} /* Fixed value attribute */
                                                 required
                                             >
                                                 <option value="" disabled hidden>Choose Semester</option>
@@ -156,8 +156,6 @@ function Join() {
                                                 <option value="7">7</option>
                                             </select>
                                         </div>
-
-                                        
 
                                         <div className="input-group d-flex flex-column">
                                             <label className="label">Entity Registration ID</label>
