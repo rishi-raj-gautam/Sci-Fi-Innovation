@@ -61,7 +61,7 @@ function Join() {
                         </div>
                         <div className="modal-body">
                         <div className='head'>Form will reopen on 29th July at 3pm</div>
-                            {/* {isRegistered ? (
+                            {isRegistered ? (
                                 <div className="mt-3">
                                     <p>Thank you for registering!</p>
                                     
@@ -192,7 +192,7 @@ function Join() {
                                         </button>
                                     </form>
                                 </div>
-                            )} */}
+                            )}
                         </div>
                         <div className="modal-footer" style={{borderColor:'#00000000'}}>
                             <button type="button" className="animated-button" data-bs-dismiss="modal" onClick={handleModalClose}>Close</button>
