@@ -53,17 +53,18 @@ function Join() {
             <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div className="modal-dialog modal-dialog-scrollable">
                     <div className="modal-content custom">
-                        <div className="modal-header" style={{borderColor:'#00000000'}}>
+                        <div className="modal-header" style={{ borderColor: '#00000000' }}>
                             <h1 className="modal-title fs-5 head" id="staticBackdropLabel">
                                 {isRegistered ? "Welcome to Sci-Fi Innovation Club!" : "Sci-Fi Innovation Club Permanent Membership Form"}
                             </h1>
                             <button type="button" className="btn-close custom" data-bs-dismiss="modal" aria-label="Close" onClick={handleModalClose}></button>
                         </div>
                         <div className="modal-body">
-                            {isRegistered ? (
+                        <div className='para'> Form closed for maintainance</div>
+                           {/* {isRegistered ? (
                                 <div className="mt-3">
                                     <p>Thank you for registering!</p>
-                                    
+
                                 </div>
                             ) : (
                                 <div>
@@ -146,7 +147,7 @@ function Join() {
                                                 name="sem"
                                                 className="input"
                                                 onChange={handleChange}
-                                                value={userData.sem} /* Fixed value attribute */
+                                                value={userData.sem}
                                                 required
                                             >
                                                 <option value="" disabled hidden>Choose Semester</option>
@@ -189,9 +190,9 @@ function Join() {
                                         </button>
                                     </form>
                                 </div>
-                            )}
+                            )} */}
                         </div>
-                        <div className="modal-footer" style={{borderColor:'#00000000'}}>
+                        <div className="modal-footer" style={{ borderColor: '#00000000' }}>
                             <button type="button" className="animated-button" data-bs-dismiss="modal" onClick={handleModalClose}>Close</button>
                         </div>
                     </div>
