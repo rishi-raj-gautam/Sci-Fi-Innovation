@@ -1,5 +1,6 @@
 import './event.css';
 import React from 'react';
+import Synergy from './assets/Synergy.png'; // Correct path
 import { useState, useEffect } from 'react';
 function Events() {
 
@@ -47,8 +48,8 @@ function Events() {
 
 
     const events = [
+      { id: 2, heading: '', location: 'Chandigarh University', image: Synergy },
         { id: 1, heading: 'THINK-A-THON', location: 'Chandigarh University' },
-        { id: 2, heading: 'N/A', location: 'Chandigarh University' },
         { id: 3, heading: 'N/A', location: 'Chandigarh University' },
         { id: 4, heading: 'N/A', location: 'Chandigarh University' },
     ];
@@ -60,9 +61,11 @@ function Events() {
                 <div className="row mt-4">
                     {events.map((event) => (
                         <div key={event.id} className="col d-flex justify-content-center">
-                            <div className={`card ${event.id === 1 ? 'special-card' : ''}`}>
+                            <div className={`card ${event.id === 1 ? 'special-card' : ''} ${event.id === 2 ? 'special-card2' : ''}`} >
+                            {event.id === 2 && <img src={event.image} alt="Event" className="event-image" />}
                                 <p className="heading">{event.heading}</p>
                                 <p className="para location">{event.location}</p>
+                                {event.id==2?<a href="https://synergy-neon.vercel.app/" target="_blank" className=""><button className="btn-form">Register</button></a>:""}
                                 {event.id==1?<a className=""><button className="btn-form">Closed</button></a>:""}
                             </div>
                         </div>

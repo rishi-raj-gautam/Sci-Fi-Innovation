@@ -28,6 +28,12 @@
     background-image: url('./assets/Saturn.jpg');
     background-size: contain;
 }
+
+.special-card2 {
+  color: #08294F;
+  background-image: url('./assets/2.png');
+  background-size: cover;
+}
   
   .card::before {
     content: '';
