@@ -65,7 +65,7 @@ function Events() {
                             {event.id === 2 && <img src={event.image} alt="Event" className="event-image" />}
                                 <p className="heading">{event.heading}</p>
                                 <p className="para location">{event.location}</p>
-                                {event.id==2?<a href="https://synergy-neon.vercel.app/" target="_blank" className=""><button className="btn-form">Register</button></a>:""}
+                                {event.id==2?<a href="https://synergy-neon.vercel.app/" className=""><button className="btn-form">Register</button></a>:""}
                                 {event.id==1?<a className=""><button className="btn-form">Closed</button></a>:""}
                             </div>
                         </div>
