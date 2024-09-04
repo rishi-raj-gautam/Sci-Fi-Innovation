@@ -34,6 +34,12 @@
   background-image: url('./assets/2.png');
   background-size: cover;
 }
+
+.special-card3 {
+  /* color: #08294F; */
+  background-image: url('./assets/pinkneon.jpg');
+  background-size: contain;
+}
   
   .card::before {
     content: '';
