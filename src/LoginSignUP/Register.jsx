@@ -5,9 +5,10 @@ import { Link } from 'react-router-dom';
 function Register() {
   return (
     <div className='register'>
-        <video autoPlay loop muted className='background-video'>
+        {/* <video autoPlay loop muted className='background-video'>
         <source src='src\LoginSignUP\backg.mp4' type='video/mp4' />
-      </video>
+      </video> */}
+      <div  className='background-video'></div>
       <div className='background-overlay'></div>
       <img src='src\assets\LOGO.png' height={`100px`}></img>
       <h2>Sign In to Sci-Fi</h2>

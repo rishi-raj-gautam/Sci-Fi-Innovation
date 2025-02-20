@@ -1,6 +1,7 @@
 /* From Uiverse.io by ammarsaa */ 
 .register {
     height: 110vh;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,6 +12,7 @@
 }
 
 .background-video {
+    background-image: url('https://i.ytimg.com/vi/eTD0WWFIDAg/maxresdefault.jpg');
     position: absolute;
     top: 0;
     left: 0;
