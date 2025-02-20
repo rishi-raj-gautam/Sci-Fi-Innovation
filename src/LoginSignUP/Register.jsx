@@ -6,7 +6,7 @@ function Register() {
   return (
     <div className='register'>
         <video autoPlay loop muted className='background-video'>
-        <source src='src\.psd\bg.mp4' type='video/mp4' />
+        <source src='src\LoginSignUP\bg.mp4' type='video/mp4' />
       </video>
       <div className='background-overlay'></div>
       <img src='src\assets\LOGO.png' height={`100px`}></img>
