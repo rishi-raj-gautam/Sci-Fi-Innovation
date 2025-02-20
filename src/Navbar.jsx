@@ -18,6 +18,7 @@ function Navbar() {
                         <a className="nav-link active" aria-current="page" href="#home">Home</a>
                         <a className="nav-link active" aria-current="page" href="#about">About</a>
                         <a className="nav-link active" aria-current="page" href="#events">Events</a>
+                        <a className="nav-link active" aria-current="page" href="#gallery">Gallery</a>
                         <a className="nav-link active" aria-current="page" href="#team">Our Team</a>
 
 

@@ -11,6 +11,7 @@ import MoreTeam from './MoreTeam'
 import { Analytics } from '@vercel/analytics/react';
 import Register from './LoginSignUP/Register'
 import Login from './LoginSignUP/Login'
+import Gallery from './Gallery'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -22,6 +23,7 @@ function App() {
       <Home/>
       <About/>
       <Events/>
+      <Gallery/>
       <Team/>
       <Footer/>
       </>

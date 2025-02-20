@@ -1,6 +1,6 @@
 #home{
-    background-image: url('assets/About.jpg');
-    height: 100vh;
+    background-image: url('assets\banner.png');
+    height: 110vh;
     background-size: cover;
     background-repeat: no-repeat;
     color: aliceblue;
