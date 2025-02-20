@@ -10,7 +10,7 @@ function Register() {
       </video> */}
       <div  className='background-video'></div>
       <div className='background-overlay'></div>
-      <img src='src\assets\LOGO.png' height={`100px`}></img>
+      <img src='/LOGO.png' height={`100px`}></img>
       <h2>Sign In to Sci-Fi</h2>
 <form className="form">
     <p className="title">Register </p>
