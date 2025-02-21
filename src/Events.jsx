@@ -67,7 +67,7 @@ function Events() {
                                 <p className="para location">{event.location}</p>
                                 {event.id==2?<a className=""><button className="btn-form">Closed</button></a>:""}
                                 {event.id==1?<a className=""><button className="btn-form">Closed</button></a>:""}
-                                {event.id==3?<a href="https://forms.gle/WEaTVhTJKxMWznWd8" target='_blank' className=""><button className="btn-form">Register Now</button></a>:""}
+                                {event.id==3?<a className=""><button className="btn-form">Closed</button></a>:""}
                             </div>
                         </div>
                     ))}
