@@ -22,13 +22,13 @@ function Navbar() {
                         <a className="nav-link active" aria-current="page" href="#team">Our Team</a>
 
 
-                        {/* <button className="animated-button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <button className="animated-button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                             <span>Join Now</span>
                             <span></span>
-                        </button> */}
-                        <Link to='/login'><button className='buttonLR'>
+                        </button>
+                        {/* <Link to='/login'><button className='buttonLR'>
                             SignIn
-                        </button></Link>
+                        </button></Link> */}
                     </div>
                 </div>
             </div>
